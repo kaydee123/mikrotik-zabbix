@@ -12,7 +12,11 @@ zabbix_export:
       uuid: fd4f7553e26c453bb6dd31c3b180b6d8
       template: Mikrotik Queue
       name: Mikrotik Queue
+<<<<<<< HEAD
       description:  |
+=======
+      description:
+>>>>>>> b6c71449b25e2eb8aa40ee2d31552334b588371c
         Template for graphing Queue on Mikrotik devices
         Note- Removed all pppoe queues if you want to enable the pppoe queue graphing remove ^<pppoe- filter 
         
@@ -108,10 +112,17 @@ zabbix_export:
       description: |
         Note: this template is derived from a community template named -> MikroTik CCR2004-1G-12S+2XS by SNMP Please remove this template from zabbix before using it 
         
+<<<<<<< HEAD
         Template for monitoring All Mikrotik Routers which does not have wireless (Caps, LTE, AP Etc).
         
         
         To remove pppoe Users go to:
+=======
+        The template for monitoring All Mikrotik Routers which does not have wireless (Caps, LTE, AP Etc).
+        
+        
+        To remove to remove pppoe Users go to:
+>>>>>>> b6c71449b25e2eb8aa40ee2d31552334b588371c
         
         Administration-> General -> Regular Expression -> New Regular Expression -> :
         Name: pppoe
@@ -120,8 +131,11 @@ zabbix_export:
         Save/Add
         
         All PPPOE users will be removed on next discovery
+<<<<<<< HEAD
 
         https://kushalgupta.com
+=======
+>>>>>>> b6c71449b25e2eb8aa40ee2d31552334b588371c
       vendor:
         name: Zabbix
         version: 6.4-0
