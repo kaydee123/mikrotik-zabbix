@@ -91,7 +91,7 @@ zabbix_export:
                 -
                   drawtype: GRADIENT_LINE
                   color: '144618'
-                  yaxisside: RIGHT
+                  yaxisside: LEFT
                   calc_fnc: MAX
                   item:
                     host: Mikrotik-QUEUE
@@ -100,7 +100,7 @@ zabbix_export:
                   sortorder: '1'
                   drawtype: GRADIENT_LINE
                   color: '093578'
-                  yaxisside: RIGHT
+                  yaxisside: LEFT
                   calc_fnc: MAX
                   item:
                     host: Mikrotik-QUEUE
